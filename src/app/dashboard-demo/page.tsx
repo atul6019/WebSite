@@ -1,0 +1,6 @@
+import { Activity, Bell, CloudUpload, Cpu, Gauge, LineChart } from "lucide-react";
+import { SectionHeader } from "@/components/SectionHeader";
+import { pageMetadata } from "@/lib/seo";
+export const metadata = pageMetadata("Dashboard Demo", "MQTT dashboard demo with charts, OTA status, alerts, analytics, and device management.", "/dashboard-demo");
+const widgets = [{t:"MQTT Throughput",v:"42k msg/day",i:Activity},{t:"Devices Online",v:"128 / 132",i:Cpu},{t:"OTA Status",v:"97% current",i:CloudUpload},{t:"Alerts",v:"6 active",i:Bell},{t:"Sensor Charts",v:"24h trends",i:LineChart},{t:"Analytics",v:"OEE + Energy",i:Gauge}];
+export default function DashboardDemo(){return <main className="container-pad py-20"><SectionHeader kicker="Dashboard" title="Realistic industrial IoT operations console" description="Monitor MQTT telemetry, sensor charts, device fleets, OTA rollouts, alerts, and analytics from one premium dashboard."/><div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">{widgets.map(({t,v,i:Icon})=><div className="tech-card" key={t}><Icon className="mb-5 text-accent" size={34}/><h2 className="text-xl font-bold text-white">{t}</h2><p className="mt-3 text-3xl font-black text-accent">{v}</p><div className="mt-5 h-28 rounded-2xl bg-gradient-to-r from-cyan-400/20 via-slate-800 to-cyan-300/10"/></div>)}</div></main>}
