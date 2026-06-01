@@ -1,0 +1,7 @@
+import Link from "next/link";
+import { Cpu, Mail, MapPin, Phone } from "lucide-react";
+import { navigation, site } from "@/data/site";
+
+export function Footer() {
+  return <footer className="border-t border-cyan-300/10 bg-slate-950"><div className="container-pad grid gap-10 py-12 lg:grid-cols-[1.2fr_1fr_1fr]"><div><div className="mb-4 flex items-center gap-3 text-xl font-bold"><Cpu className="text-accent" />{site.name}</div><p className="max-w-md text-slate-400">{site.description} We help teams move from sketches to manufactured intelligent products.</p></div><div><h3 className="mb-4 font-semibold text-white">Navigation</h3><div className="grid grid-cols-2 gap-2">{navigation.slice(1).map((n)=><Link className="text-sm text-slate-400 hover:text-accent" href={n.href} key={n.href}>{n.label}</Link>)}</div></div><div><h3 className="mb-4 font-semibold text-white">Contact</h3><ul className="space-y-3 text-sm text-slate-400"><li className="flex gap-2"><Mail size={18} className="text-accent"/>hello@utkrantiyantra.com</li><li className="flex gap-2"><Phone size={18} className="text-accent"/>+91 00000 00000</li><li className="flex gap-2"><MapPin size={18} className="text-accent"/>India · Global engineering support</li></ul></div></div><div className="border-t border-cyan-300/10 py-5 text-center text-sm text-slate-500">© {new Date().getFullYear()} {site.name}. All rights reserved.</div></footer>;
+}
