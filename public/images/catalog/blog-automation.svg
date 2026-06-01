@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="AUTOMATION">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f8fafc"/><stop offset=".55" stop-color="#ecfeff"/><stop offset="1" stop-color="#cffafe"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0e7490" flood-opacity=".18"/></filter></defs>
+<rect width="1200" height="800" fill="url(#bg)"/><g opacity=".24" stroke="#06b6d4"><path d="M0 125H1200M0 250H1200M0 375H1200M0 500H1200M0 625H1200M150 0V800M300 0V800M450 0V800M600 0V800M750 0V800M900 0V800M1050 0V800"/></g>
+<g filter="url(#shadow)"><rect x="430" y="220" width="340" height="140" rx="32" fill="#f8fafc" stroke="#06b6d4" stroke-width="4"/><path d="M390 390a300 300 0 0 1 420 0M470 470a185 185 0 0 1 260 0M555 550a65 65 0 0 1 90 0" fill="none" stroke="#0891b2" stroke-width="24" stroke-linecap="round"/><circle cx="600" cy="610" r="28" fill="#06b6d4"/></g>
+<text x="600" y="675" text-anchor="middle" font-family="Inter,Arial" font-size="46" font-weight="800" fill="#0f172a">AUTOMATION</text>
+<text x="600" y="725" text-anchor="middle" font-family="Inter,Arial" font-size="26" font-weight="600" fill="#0e7490">Technical article visual</text>
+</svg>
