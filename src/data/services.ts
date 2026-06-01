@@ -14,4 +14,4 @@ export const services: Service[] = [
   ["led-display-controller-development", "LED Display Controller Development", "Custom LED display controllers, content tools, protocols, and rugged control electronics.", ["RGB Matrix", "RS485", "Ethernet", "Scheduling", "Remote Updates"]],
   ["industrial-automation", "Industrial Automation", "Panel automation, remote monitoring, PLC integration, and custom control systems.", ["PLC", "SCADA", "Modbus", "Relay Control", "Sensors"]],
   ["manufacturing-support", "Manufacturing Support", "BOM optimization, vendor coordination, test jigs, firmware flashing, and pilot production support.", ["DFM", "DFA", "Test Jigs", "BOM", "QA"]]
-].map(([slug, title, description, stack]) => ({ slug, title, description, stack, benefits: baseBenefits, image: `/images/catalog/service-${slug}.svg` } as Service));
+].map(([slug, title, description, stack]) => ({ slug, title, description, stack, benefits: baseBenefits, image: `/images/services/${slug}.svg` } as Service));
