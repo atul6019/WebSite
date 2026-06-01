@@ -1,0 +1,12 @@
+[
+  { "slug": "4-channel-smart-touch-switch", "name": "4 Channel Smart Touch Switch", "image": "https://www.nalitesmart.com/wp-content/uploads/2024/08/X83-4-Gang.jpg" },
+  { "slug": "1-channel-smart-switch-16a", "name": "1 Channel Smart Switch 16A", "image": "https://www.yunismart.com/Uploads/image/20210606/1622960886530655.jpg" },
+  { "slug": "6-channel-relay-board-10a", "name": "6 Channel Relay Board 10A", "image": "https://adiy.in/wp-content/uploads/2022/07/6-channel-with-opto-5v-1-600x600.jpg" },
+  { "slug": "6-channel-relay-board-16a", "name": "6 Channel Relay Board 16A", "image": "https://adiy.in/wp-content/uploads/2022/07/6-channel-with-opto-5v-1-600x600.jpg" },
+  { "slug": "4-channel-relay-board-10a", "name": "4 Channel Relay Board 10A", "image": "https://soldered.com/cdn/shop/files/DSC-7374.jpg?v=1762939840&width=1200" },
+  { "slug": "temperature-humidity-controller-4-channel", "name": "Temperature & Humidity Controller 4 Channel", "image": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/w_1024%2Ch_768%2Cc_lpad/assets/1/26/Autonics-TMH-Series.jpg" },
+  { "slug": "temperature-humidity-controller-8-channel", "name": "Temperature & Humidity Controller 8 Channel", "image": "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/w_1024%2Ch_768%2Cc_lpad/assets/1/26/Autonics-TMH-Series.jpg" },
+  { "slug": "wifi-gateway", "name": "WiFi Gateway", "image": "https://media.ncd.io/sites/2/20190410211834/MQTT-Gateway_1-600x400.jpg" },
+  { "slug": "gsm-gateway", "name": "GSM Gateway", "image": "https://spectra.de/media/be/60/90/1777456316/trb143-black-t-v1.webp" },
+  { "slug": "ethernet-gateway", "name": "Ethernet Gateway", "image": "https://www.compulab.com/wp-content/uploads/2025/04/iot-link_front.jpg" }
+]

@@ -1,0 +1,5 @@
+import { InquiryForm } from "@/components/InquiryForm";
+import { SectionHeader } from "@/components/SectionHeader";
+import { pageMetadata } from "@/lib/seo";
+export const metadata = pageMetadata("Contact", "Start your industrial IoT, embedded systems, robotics, automation, or AI vision project with Utkranti Yantra.", "/contact");
+export default function ContactPage(){return <main className="container-pad py-20"><SectionHeader kicker="Contact" title="Start your project with Utkranti Yantra" description="Tell us about your product, timeline, budget, and production requirements."/><div className="grid gap-8 lg:grid-cols-[.8fr_1.2fr]"><div className="tech-card"><h2 className="text-2xl font-bold">Engineering inquiry</h2><p className="mt-4 text-slate-600">Use this form for hardware, PCB, firmware, IoT dashboard, robotics, CNC, AI vision, LED controller, automation, and manufacturing support requests.</p><p className="mt-4 text-slate-600">Email: hello@utkrantiyantra.com</p></div><InquiryForm /></div></main>}
